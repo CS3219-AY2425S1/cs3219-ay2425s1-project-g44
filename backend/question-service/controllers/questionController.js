@@ -29,6 +29,20 @@ exports.getMaxQuestionId = async (req, res) => {
     res.send(`${queryResult.id}`);
 }
 
+exports.createNewQuestion = async (req, res) => {
+    const data = req.body;
+    console.log(data.id);
+    data.id = data.id ? data.id : await Question.findOne().sort({ id: -1}).exec().id;
+    const newQuestion = new Question(data);
+    newQuestion.save()
+        .then(() => {
+            res.send("Question successfully added");
+        })
+        .catch((err) => {
+            res.send(err)
+        })
+}
+
 exports.dummyCallbackFunction = async (req, res) => {
     res.send("SENT A DUMMY RESPONSE");
 };
