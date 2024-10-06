@@ -1,0 +1,236 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "title": "Reverse a String",
+            "summary": "Write a function that reverses a string",
+            "description": "Write a function that reverses a string. The input string is given as an array of characters s. You must do this by modifying the input array in-place with O(1) extra memory.",
+            "categories": [
+                "Strings",
+                "Algorithms"
+            ],
+            "complexity": "Easy",
+            "link": "https://leetcode.com/problems/reverse-string/"
+        },
+        {
+            "id": 2,
+            "title": "Linked List Cycle Detection",
+            "summary": "Implement a function to detect if a linked list contains a cycle",
+            "description": "Implement a function to detect if a linked list contains a cycle.",
+            "categories": [
+                "Data Structures",
+                "Algorithms"
+            ],
+            "complexity": "Easy",
+            "link": "https://leetcode.com/problems/linked-list-cycle/"
+        },
+        {
+            "id": 3,
+            "title": "Roman to Integer",
+            "summary": "Convert a roman numeral to an integer",
+            "description": "Given a roman numeral, convert it to an integer.",
+            "categories": [
+                "Algorithms"
+            ],
+            "complexity": "Easy",
+            "link": "https://leetcode.com/problems/roman-to-integer/"
+        },
+        {
+            "id": 4,
+            "title": "Add Binary",
+            "summary": "Add two binary strings",
+            "description": "Given two binary strings a and b, return their sum as a binary string.",
+            "categories": [
+                "Bit Manipulation",
+                "Algorithms"
+            ],
+            "complexity": "Easy",
+            "link": "https://leetcode.com/problems/add-binary/"
+        },
+        {
+            "id": 5,
+            "title": "Fibonacci Number",
+            "summary": "Calculate the Fibonacci number",
+            "description": "The Fibonacci numbers form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones. Given n, calculate F(n).",
+            "categories": [
+                "Recursion",
+                "Algorithms"
+            ],
+            "complexity": "Easy",
+            "link": "https://leetcode.com/problems/fibonacci-number/"
+        },
+        {
+            "id": 6,
+            "title": "Implement Stack using Queues",
+            "summary": "Implement a LIFO stack using 2 queues",
+            "description": "Implement a last-in-first-out (LIFO) stack using only two queues. The implemented stack should support all the functions of a normal stack (push, top, pop, and empty).",
+            "categories": [
+                "Data Structures"
+            ],
+            "complexity": "Easy",
+            "link": "https://leetcode.com/problems/implement-stack-using-queues/"
+        },
+        {
+            "id": 7,
+            "title": "Combine Two Tables",
+            "summary": "Report the first name, last name, city, and state of each person",
+            "description": "Write a solution to report the first name, last name, city, and state of each person in the Person table. If the address of a personId is not present in the Address table, report null instead.",
+            "categories": [
+                "Databases"
+            ],
+            "complexity": "Easy",
+            "link": "https://leetcode.com/problems/combine-two-tables/"
+        },
+        {
+            "id": 8,
+            "title": "Repeated DNA Sequences",
+            "summary": "Find all 10-letter-long sequences that occur more than once",
+            "description": "Given a string s that represents a DNA sequence, return all the 10-letter-long sequences (substrings) that occur more than once in a DNA molecule.",
+            "categories": [
+                "Algorithms",
+                "Bit Manipulation"
+            ],
+            "complexity": "Medium",
+            "link": "https://leetcode.com/problems/repeated-dna-sequences/"
+        },
+        {
+            "id": 9,
+            "title": "Course Schedule",
+            "summary": "Return true if you can finish all courses",
+            "description": "Return true if you can finish all courses. Otherwise, return false.",
+            "categories": [
+                "Data Structures",
+                "Algorithms"
+            ],
+            "complexity": "Medium",
+            "link": "https://leetcode.com/problems/course-schedule/"
+        },
+        {
+            "id": 10,
+            "title": "LRU Cache Design",
+            "summary": "Design and implement an LRU cache",
+            "description": "Design and implement an LRU (Least Recently Used) cache.",
+            "categories": [
+                "Data Structures"
+            ],
+            "complexity": "Medium",
+            "link": "https://leetcode.com/problems/lru-cache/"
+        },
+        {
+            "id": 11,
+            "title": "Longest Common Subsequence",
+            "summary": "Return the length of the longest common subsequence",
+            "description": "Given two strings, return the length of their longest common subsequence.",
+            "categories": [
+                "Strings",
+                "Algorithms"
+            ],
+            "complexity": "Medium",
+            "link": "https://leetcode.com/problems/longest-common-subsequence/"
+        },
+        {
+            "id": 12,
+            "title": "Rotate Image",
+            "summary": "Rotate an n x n 2D matrix by 90 degrees",
+            "description": "Given an n x n 2D matrix representing an image, rotate the image by 90 degrees clockwise.",
+            "categories": [
+                "Arrays",
+                "Algorithms"
+            ],
+            "complexity": "Medium",
+            "link": "https://leetcode.com/problems/rotate-image/"
+        },
+        {
+            "id": 13,
+            "title": "Airplane Seat Assignment Probability",
+            "summary": "Return the probability that the nth person gets their own seat",
+            "description": "Return the probability that the nth person gets their own seat.",
+            "categories": [
+                "Brain Teaser"
+            ],
+            "complexity": "Medium",
+            "link": "https://leetcode.com/problems/airplane-seat-assignment-probability/"
+        },
+        {
+            "id": 14,
+            "title": "Validate Binary Search Tree",
+            "summary": "Determine if a binary tree is a valid binary search tree",
+            "description": "Given the root of a binary tree, determine if it is a valid binary search tree (BST).",
+            "categories": [
+                "Data Structures",
+                "Algorithms"
+            ],
+            "complexity": "Medium",
+            "link": "https://leetcode.com/problems/validate-binary-search-tree/"
+        },
+        {
+            "id": 15,
+            "title": "Sliding Window Maximum",
+            "summary": "Return the max sliding window for an array of integers",
+            "description": "Return the max sliding window for an array of integers.",
+            "categories": [
+                "Arrays",
+                "Algorithms"
+            ],
+            "complexity": "Hard",
+            "link": "https://leetcode.com/problems/sliding-window-maximum/"
+        },
+        {
+            "id": 16,
+            "title": "N-Queen Problem",
+            "summary": "Return all distinct solutions to the n-queens puzzle",
+            "description": "Given an integer n, return all distinct solutions to the n-queens puzzle.",
+            "categories": [
+                "Algorithms"
+            ],
+            "complexity": "Hard",
+            "link": "https://leetcode.com/problems/n-queens/"
+        },
+        {
+            "id": 17,
+            "title": "Serialize and Deserialize a Binary Tree",
+            "summary": "Design an algorithm to serialize and deserialize a binary tree",
+            "description": "Design an algorithm to serialize and deserialize a binary tree.",
+            "categories": [
+                "Data Structures",
+                "Algorithms"
+            ],
+            "complexity": "Hard",
+            "link": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"
+        },
+        {
+            "id": 18,
+            "title": "Wildcard Matching",
+            "summary": "Implement wildcard pattern matching with support for '?' and '*'",
+            "description": "Implement wildcard pattern matching with support for '?' and '*'.",
+            "categories": [
+                "Strings",
+                "Algorithms"
+            ],
+            "complexity": "Hard",
+            "link": "https://leetcode.com/problems/wildcard-matching/"
+        },
+        {
+            "id": 19,
+            "title": "Chalkboard XOR Game",
+            "summary": "Alice and Bob take turns erasing exactly one number from the chalkboard",
+            "description": "Alice and Bob take turns erasing exactly one number from the chalkboard. Return true if and only if Alice wins the game, assuming both players play optimally.",
+            "categories": [
+                "Brain Teaser"
+            ],
+            "complexity": "Hard",
+            "link": "https://leetcode.com/problems/chalkboard-xor-game/"
+        },
+        {
+            "id": 20,
+            "title": "Trips and Users",
+            "summary": "Find the cancellation rate of requests with unbanned users each day",
+            "description": "Write a solution to find the cancellation rate of requests with unbanned users each day.",
+            "categories": [
+                "Databases"
+            ],
+            "complexity": "Hard",
+            "link": "https://leetcode.com/problems/trips-and-users/"
+        }
+    ]
+}
