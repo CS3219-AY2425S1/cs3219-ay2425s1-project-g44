@@ -1,5 +1,36 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/bzPrOe11)
 # CS3219 Project (PeerPrep) - AY2425S1
-## Group: Gxx
+## Group: G44
+
+
+### API Endpoints
+The question microservice exposes the following API endpoints:
+- ```questions/all``` - Returns all the questions available on the database.
+- ```questions/byId/[Question ID]``` - Returns a single question by ID number.
+- ```questions/maxQuestionId``` - Returns the highest question ID currently being stored in the database. (Can be used for adding new Questions).
+- ```filter/q/?categories=Arrays,Bit%20Manipulation&complexities=Easy,Medium&keywords=algebra,geometry``` - Returns all questions that have Arrays AND/OR Bit Manipulation tags, are either Easy OR Medium, and contain the keywords "algebra" or "geometry".
+- ```questions/add``` - Adds a new question to the database.
+- ```questions/delete/[Question ID]``` - Deletes a question from the database by ID number.
+- ```questions/update/[Question ID]``` - Updates a question from the database by ID number.
+- ```questions/patch/[Question ID]``` - Patches a question from the database by ID number.
+The matching microservice exposes the following API endpoints:
+- ```matching/produce``` - Produce a message to Kafka.
+
+### Running PeerPrep
+In the root directory, run
+```sh
+docker compose up -d
+```
+and access PeerPrep at [localhost:3000](http://localhost:3000)
+
+> To force a rebuild of the images, run
+> `docker compose up -d --build`
+
+#### Developing
+If you are developing PeerPrep, you can use [Compose Watch](https://docs.docker.com/compose/how-tos/file-watch/) to automatically update and preview code changes:
+```sh
+docker compose up --watch --build
+```
 
 ### Note: 
 - You can choose to develop individual microservices within separate folders within this repository **OR** use individual repositories (all public) for each microservice. 
