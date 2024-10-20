@@ -14,6 +14,9 @@ questionRouter.get("/maxQuestionId", questionController.getMaxQuestionId);
 
 questionRouter.get("/byId/:questionId", questionController.getQuestionById);
 
+questionRouter.use("/new", express.json());
+questionRouter.post("/new", questionController.createNewQuestion);
+
 questionRouter.get("/dummy", questionController.dummyCallbackFunction);
 
 questionRouter.use("/add", express.json())
